@@ -1,5 +1,6 @@
 package com.ecgreb.dagger2testingdemo;
 
+import org.bouncycastle.jce.provider.symmetric.ARC4;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,9 +13,7 @@ import android.widget.TextView;
 
 import static org.junit.Assert.assertEquals;
 
-@RunWith(RobolectricTestRunner.class)
-@Config(constants = BuildConfig.class, sdk = 21)
-public class MainActivityTest {
+public class MainActivityTest extends BaseTest{
     private MainActivity mainActivity;
 
     @Before public void setUp() throws Exception {
