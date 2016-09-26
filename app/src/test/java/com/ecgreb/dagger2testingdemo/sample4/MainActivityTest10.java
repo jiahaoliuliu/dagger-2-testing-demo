@@ -1,14 +1,18 @@
-package com.ecgreb.dagger2testingdemo;
+package com.ecgreb.dagger2testingdemo.sample4;
+
+import android.widget.TextView;
+
+import com.ecgreb.dagger2testingdemo.BaseTest;
+import com.ecgreb.dagger2testingdemo.MainActivity;
+import com.ecgreb.dagger2testingdemo.R;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.robolectric.Robolectric;
 
-import android.widget.TextView;
-
 import static org.junit.Assert.assertEquals;
 
-public class MainActivityTest extends BaseTest{
+public class MainActivityTest10 extends BaseTest {
     private MainActivity mainActivity;
 
     @Before public void setUp() throws Exception {
